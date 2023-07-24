@@ -72,16 +72,22 @@ i{
     padding: 20px;
 }
 .toast{
-    width: 400px;
-    height: 80px;
+    width: 300px;
+    height: 60px;
     background-color: #fff;
     font-weight: 500;
-    margin: 15px 0px;
+    margin: 5px 0px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
-    border-radius: 16px 16px 0 0;
     position: relative;
+    transform: translateX(100%);
+    animation: moveleft 0.2s linear forwards;
+}
+@keyframes moveleft {
+    100%{
+        transform: translateX(0%)
+    }
 }
 .toast i{
     margin: 0px 20px;

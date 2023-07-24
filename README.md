@@ -1,6 +1,7 @@
+[![MasterHead](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHlzRnZQZnJSSTZkRkg5cjcwUHB3QkwxeGI3UXxBQ3Jtc0trRE5fZEtEZFpqRnRiTzg4WV94SXdYY1RrdmNtaDNFM3RoVXN5aE5YT1I5T2JNYUllTkk0TzdZaEdkV19CZzBEWDYxZl9XbzBwNFpSNHNIUWV2dmNTT2toWmFSUklGUGlLNHhkMm5rci1ub0stUGVXYw&q=https%3A%2F%2F1.bp.blogspot.com%2F-7A4WynwLsMw%2FXbBpCXG8fHI%2FAAAAAAAAMt4%2FuOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ%2Fs1600%2F2000_600px.gif&v=G-EGDH50hGE)]
 <h1 align="center">Hi 👋, I'm Biggz coder</h1>
 <h3 align="center">A young passionate developer from Cameroon.</h3>
-<img align="right" height="400" width="400" alt="coding" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif">
+<img align="right" height="400" width="600" alt="coding" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif">
 
 - 🌱 I’m currently learning **React Js, NodeJs**
 

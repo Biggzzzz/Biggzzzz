@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #4f0083;
+}
+.container{
+    background-color: #fff;
+    margin: 7% auto 10px;
+    width: 500px;
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 10px rgba(39, 39, 39, 0.6);
+}
+.container .Notewritter{
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a8a8a8;
+    justify-content: center;
+}
+.container .Notewritter #TextBox{
+    outline: none;
+    width: 300px;
+    height: 35px;
+    padding: 0px 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #a8a8a8;
+}
+.container .Notewritter .ButtonSubmit{
+    background: #340057;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 600;
+}
+.list{
+    margin: 20px 0;
+}
+.list .label{
+    display: inline-block;
+    padding: 20px 3px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+.label .check{
+    margin-right: 10px;
+    cursor: pointer;
+}
+i{
+    float: right;
+    font-size: 20px;
+    color: rgb(255, 85, 85);
+    cursor: pointer;
+}
+#toastBox{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+}
+.toast{
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    font-weight: 500;
+    margin: 15px 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+}
+.toast i{
+    margin: 0px 20px;
+    font-size: 35px;
+    color: red;
+}
+.toast::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(12, 12, 201);
+    animation: anim 5.8s linear forwards
+}
+@keyframes anim{
+    100%{
+        width: 0%;
+    }
+}
